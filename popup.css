@@ -1,0 +1,30 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+.popup-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 5px;
+    width: 90%;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Message styles */
+.message {
+    color: #4caf50; /* Green color for success messages */
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}

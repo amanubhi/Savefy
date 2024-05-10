@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    <title>Savefy</title>
+</head>
+
+<body>
+    <div class="popup-container">
+        <h2>Savefy</h2>
+        <input type="text" id="user-input" placeholder="Enter some text...">
+        <button id="save-input">Save Input</button>
+        <button id="save-tab">Save Current Tab</button>
+        <button id="delete-all">Delete All</button>
+        <!-- Element to display saved input -->
+        <p id="saved-input-display">Saved input will appear here.</p>
+        <!-- Elements to display saved history -->
+        <h3>Saved Input History:</h3>
+        <ul id="input-history"></ul>
+
+        <h3>Saved Tab History:</h3>
+        <ul id="tab-history"></ul>
+        <!-- Message element -->
+        <div id="message" class="message"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
